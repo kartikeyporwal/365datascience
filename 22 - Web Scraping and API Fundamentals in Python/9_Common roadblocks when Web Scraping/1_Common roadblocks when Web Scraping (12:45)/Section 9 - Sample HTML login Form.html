@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>HTML Form</title>
+	</head>
+	
+	<body>
+		
+		<form action="/secure/users/sign_in?after_success_url=%2Fhome" method="post">
+			
+			<label for="user_email">Email Address</label>
+			<input type="email"  name="user[email]" id="user_email">
+			
+			<label for="user_password">Password</label>
+			<input type="password" name="user[password]" id="user_password">
+			
+			<input type="hidden" name="utf-8" value="✓">
+			<input type="hidden" name="authenticity_token" value="/VIF79Gh0/GAHAZziuS3RR5L8u8==">
+			
+			<input type="submit" value="Log In">
+			
+		</form>
+		
+	</body>
+
+</html>
